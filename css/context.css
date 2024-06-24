@@ -39,6 +39,7 @@ h1{
     font-style: italic;
     font-style: oblique;
     text-decoration: underline;
+    margin: 50rem;
 }
 .frame{
     display: block;

@@ -7,26 +7,45 @@
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/context.css">
     <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
     
   </head>
   <body>
     <style>
       body {
-        background-image: url('./image/background.jpg');
+        background-image: url('https://images.unsplash.com/photo-1494185728463-86366f396213?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
+        background-position: 1%;
       }
       </style>
-    <div ><h3><a href="index.html">Homepage</a> | <a href="Experience.html">Experience | </a><a href="contact.html" >Contact</a></h3></div>
-    <div><h1>Portfolio</h1></div>
-    <img src="./image/IMG_6703.PNG" alt="My image" width="375" height="500" class="center">
-    <div><h4>Personal Information</h4></div>
-    <div>
-    <p>ชื่อ-นามสกุล : ปัณณทัต เงินงาม</p>
-    <p>ชื่อเล่น : โดนัท </p>
+    <div class="my-2 mb-3"><h3><a class="btn btn-outline-dark" href="index.html">Homepage</a> | <a class="btn btn-outline-secondary" href="gallery.html">Gallery</a> | <a class="btn btn-outline-dark" href="Experience.html">Experience </a> | <a class="btn btn-outline-secondary" href="contact.html" >Contact </a></h3></div>
+
+    <div class="mb-3 d-flex gap-3 justify-content-center flex-wrap allign-items-start mx-auto border-warning"><h1>Portfolio</h1></div>
+    <div class="mb-3 d-flex gap-3 justify-content-center flex-wrap allign-items-start mx-auto border-warning"><h4>Personal Information</h4></div>
+    <div class="d-flex border gap-3 p-2 rounded-3 justify-content-center mx-auto my-3" style="max-width: 50rem;">
+    
+      <div><img src="./image/IMG_6703.PNG" alt="My image" width="187.5" height="250" class="rounded-circle" style="object-fit: cover;"></div>
+    
+    <div class="d-none d-sm-block">
+      <p class="display-5 s-sm-none ">Punnatat Ngirnngam</p>
+      <p class="text-muted">Hi ! ! !  I'm Donut. I'm studying in Chiangmai University. <br>in Faculty of engineering.I love music food game and other. <br> Nice to meet you </p>
+      </div>
     </div>
-    <div><h4>Skill</h4></div>
+    </div>
+    <!--Flexbox profile-->
+    <div ><h4>Skill</h4></div>
     <p>Basic video editor</p>
     <p>C++,C#</p>
   </body>
