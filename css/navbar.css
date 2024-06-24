@@ -1,0 +1,13 @@
+h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #6e0909;
+}
+p {
+    text-align: center;
+  }
+a:link {
+    color: rgb(194, 32, 32);
+    background-color: transparent;
+    text-decoration: none;
+  }
